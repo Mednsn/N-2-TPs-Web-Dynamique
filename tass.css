@@ -6,15 +6,17 @@
     --accent-color: #c7c7c7;
     --primary-bg-color: #151b29;
     --profile-bg: #b9b6b6;
+    --trip-color:#0d1005;
 }
 
 input[type="checkbox"]:checked ~ .main{
     --bg-color: #151b29;
     --text-color: white;
     --secondary-color: #c7c7c7;
-    --accent-color: #555;
+    --accent-color: #bc8484;
     --primary-bg-color: #333;
     --profile-bg: #000;
+    --trip-color:#a9e630;
 }
 
 body {
@@ -125,8 +127,11 @@ body {
 }
 .dark-mode {
     display: inline-block;
-    background-color: var(--primary-bg-color);
-    color: var(--accent-color);
+    background-color:#deecf5 ;
+    color: #1001b8;
     border-radius: 5px;
   
+}
+p{
+    color: var(--trip-color);
 }
